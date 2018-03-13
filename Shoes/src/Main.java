@@ -20,6 +20,7 @@ public class Main {
             System.out.println("Enter size: ");
             int size = scanner.nextInt();
             if (size >= 38 && size <= 47) {
+                System.out.println("Brands which have " + size + ":");
                 summer.setSizeAdidas(size);
                 summer.setSizeNike(size);
                 summer.setSizeBalance(size);
@@ -34,7 +35,8 @@ public class Main {
         else if (typeShoes.equals(win)){
             System.out.println("Enter size: ");
             int size = scanner.nextInt();
-            if (size >= 38 && size <= 47) {
+            if (size >= 36 && size <= 46) {
+                System.out.println("Brands which have " + size + ":");
                 winter.setSizeLova(size);
                 winter.setSizeCat(size);
                 winter.setSizeTim(size);

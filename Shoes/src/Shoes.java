@@ -13,6 +13,6 @@ public class Shoes {
     protected String tim = "Timberland";
 
     protected int [] sizeLova = new int[]{37, 38, 42, 44, 46};
-    protected int [] sizeCat = new int[]{36, 38, 39, 40, 47};
-    protected int [] sizeTim = new int[]{37, 40, 42, 43, 44};
+    protected int [] sizeCat = new int[]{36, 38, 39, 40, 45};
+    protected int [] sizeTim = new int[]{37, 40, 41, 43, 44};
 }
